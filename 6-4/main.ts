@@ -11,5 +11,5 @@ shapes[3] = new ColoredSquare('ColoredSquare2',15)
 shapes[4] = new Square('Square1',50)
 
 shapes.forEach(){
-if ()
+
 }
