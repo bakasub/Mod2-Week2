@@ -31,7 +31,7 @@ while (status) {
             let publisher = readlineSync.question('Nhap ten?');
             let issuedID = readlineSync.question('Issued Id?')
             let category = readlineSync.question('Which type of doc is this ?')
-            let obj (docCode,publisher,issuedID,category)
+            let obj = [docCode,publisher,issuedID,category]
             libraryManage.add(obj)
         case '2':
             let document2 = readlineSync.question('nhập mã số sách muốn xóa ?');
